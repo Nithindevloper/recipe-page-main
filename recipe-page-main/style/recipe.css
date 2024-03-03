@@ -12,7 +12,11 @@
 
 body{
     margin: 0px;
+    background-color:#9CAF88;
+    height:100vh;
+
 }
+
 .bg-container {
     padding: 12px;
     background-color:#9CAF88;
@@ -20,12 +24,16 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    
+    
 }
 .card-bg {
     background-color:#fff;
     padding: 15px;
     border-radius: 25px;
     width: 50%;
+    margin: 50px;
+
 }
 .omelette-img {
     width: 100%;
@@ -35,8 +43,8 @@ body{
 
 .simple-heading {
     font-family: "Young Serif";
-    font-size: 18px;
-    font-weight: 600;
+    font-size: 23px;
+    font-weight: 500;
     color: black;
 }
 
@@ -63,7 +71,7 @@ body{
 li{
     font-family: "Outfit";
     font-size: 14px;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
     
 }
 
@@ -123,7 +131,7 @@ hr{
 
 .attribution {
     font-family: "Young Serif";
-    margin: 30px;
+    margin: 0px;
 }
 
 .attribution a{
@@ -136,11 +144,10 @@ hr{
 }
 
 @media screen and (max-width: 375px) {
+
 body{
     margin: 0px;
     padding: 0px;
-    
-
 }
 
 .bg-container {
@@ -153,6 +160,7 @@ body{
     border-radius:0px;
     width: 100%;
     padding:0px;
+    margin: 0px;
 }
 .content {
     padding-left: 15px;
