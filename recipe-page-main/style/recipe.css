@@ -1,0 +1,169 @@
+
+@font-face {
+    font-family: 'Young Serif';
+    src: url(/recipe-page-main/assets/fonts/young-serif/YoungSerif-Regular.ttf);
+    weights: 400;
+}
+@font-face {
+    font-family: 'Outfit';
+    src: url(/recipe-page-main/assets/fonts/outfit/Outfit-VariableFont_wght.ttf);
+    weights: 400, 600, 700;
+}
+
+body{
+    margin: 0px;
+}
+.bg-container {
+    padding: 12px;
+    background-color:#9CAF88;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.card-bg {
+    background-color:#fff;
+    padding: 15px;
+    border-radius: 25px;
+    width: 50%;
+}
+.omelette-img {
+    width: 100%;
+    border-radius: 8px;
+    
+}
+
+.simple-heading {
+    font-family: "Young Serif";
+    font-size: 18px;
+    font-weight: 600;
+    color: black;
+}
+
+.simple-para {
+    font-family:"Outfit";
+    font-size: 14px;
+    font-weight: normal;
+}
+.preparation-bg-container {
+    background-color: hsl(330, 100%, 98%);
+    padding: 10px;
+    border-radius: 15px;
+}
+.preparation-bg-container h1{
+    font-family: "Young Serif";
+    color:hsl(332, 51%, 32%);
+    font-size: 18px;
+}
+
+.preparation-bg-container li::marker{
+    color:hsl(332, 51%, 32%);
+    
+}
+li{
+    font-family: "Outfit";
+    font-size: 14px;
+    margin-bottom: 10px;
+    
+}
+
+span{
+    color:hsl(24, 5%, 18%);
+    font-weight: 600;
+}
+
+li::marker{
+    color: hsl(14, 45%, 36%);
+    font-weight: bold;
+    
+}
+
+h1 {
+    color:hsl(14, 45%, 36%);
+    font-family:"Young Serif";
+    font-size: 18px;
+}
+
+p {
+    font-family: "Outfit";
+    font-size: 15px;
+}
+
+hr{
+    border: none;
+    color: hsl(30, 18%, 87%);
+    background-color: hsl(30, 18%, 87%);
+    height: 1px;
+}
+
+.nutrition-table {
+    border-collapse: collapse;
+    width: 100%;
+
+}
+
+.nutrition-table tr{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom:  1px solid hsl(30, 18%, 87%);
+    line-height: 2;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.border-bottom {
+    border: none !important;
+}
+
+
+.nutrition-table td:nth-child(2) {
+    color: hsl(14, 45%, 36%);
+    font-weight: 600;
+}
+
+.attribution {
+    font-family: "Young Serif";
+    margin: 30px;
+}
+
+.attribution a{
+    color:#5C2751;
+} 
+
+.attribution span{
+    font-family: "Outfit";
+    color:#F8F0FB ;
+}
+
+@media screen and (max-width: 375px) {
+body{
+    margin: 0px;
+    padding: 0px;
+    
+
+}
+
+.bg-container {
+    padding: 0px;
+    background-color: white;
+
+}
+
+.card-bg {
+    border-radius:0px;
+    width: 100%;
+    padding:0px;
+}
+.content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.omelette-img {
+    border-radius: 0px;
+}
+
+.attribution span{
+
+    color:#000 ;
+}
+}
