@@ -13,8 +13,7 @@
 body{
     margin: 0px;
     background-color:#9CAF88;
-    min-height:200vh;
-
+    min-height:100svh;
 }
 
 .bg-container {
@@ -32,7 +31,7 @@ body{
     padding: 15px;
     border-radius: 25px;
     width: 50%;
-    margin: 50px;
+    margin:50px;
 
 }
 .omelette-img {
