@@ -25,7 +25,7 @@ This is a solution to the [Frontend Mentor - Recipe page
 ### Links
 
 - Solution URL: [GitHub URL here](https://github.com/Nithindevloper/qr-code-component-main.git)
-- Live URL: [Live URL here](https://haawkdeveloper.netlify.app/recipe-page-main/)
+- Live URL: [Live URL here](https://recipe-menu-page.netlify.app/recipe-page-main/)
 
 ## My process
 
